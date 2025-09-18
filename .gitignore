@@ -1,0 +1,41 @@
+# Envs
+.venv/
+.env
+.env.*
+!.env.sample
+
+# Logs
+src/logs/
+*.log
+logs/
+
+# Python cache/build
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Testes e linters
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.pylint.d/
+
+# IDE/Editor
+.vscode/
+.idea/
+*.code-workspace
+
+# SO
+.DS_Store
+Thumbs.db
+
+# Bancos e chaves
+*.sqlite
+*.sqlite3
+*.db
+*.pem
+*.key
